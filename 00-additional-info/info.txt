@@ -1,0 +1,4 @@
+1) W przypadku błędów przy kompilacji pliku .tsc i tak zostanie wygenerowany plik .js,
+    a czasem i on będzie uruchamialny. Aby temu zapobiec należy przy kompilacji wpisać:
+    "tsc --noOmitOnError-- <file-name>"
+2) Konfigurację można przeprowadzić w pliku tscconfig.json umieszczonym w głównym katalogu projektu

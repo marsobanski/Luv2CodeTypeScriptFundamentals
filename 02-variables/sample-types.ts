@@ -1,7 +1,7 @@
 let found: boolean = true;
 let grade: number = 69.6;
-let firstName: string = "Marcin";
-let lastName: string = "Sobanski";
+let firstName: string = "Andy";
+let lastName: string = "Smith";
 
 console.log(found);
 console.log(grade);
