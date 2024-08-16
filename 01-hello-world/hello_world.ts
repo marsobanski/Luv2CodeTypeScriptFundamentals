@@ -1,3 +1,3 @@
-let firstName: string = "Marcin"
-let lastname: string = "Sobanski"
-console.log(`Hi ${firstName} ${lastname}`)
+let imie: string = "Marcin";
+let naziwsko: string = "Sobanski"
+console.log(`Hi ${imie} ${naziwsko}`)

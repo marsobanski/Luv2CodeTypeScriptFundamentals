@@ -1,4 +1,7 @@
-1) W przypadku błędów przy kompilacji pliku .tsc i tak zostanie wygenerowany plik .js,
+1) Po utworzeniu pliku .ts można go skompilować do .js za pomocą "tsc <filename>".
+    Mając plik .js można go uruchomić za pomocą "node <filename>"
+2) W przypadku błędów przy kompilacji pliku .tsc i tak zostanie wygenerowany plik .js,
     a czasem i on będzie uruchamialny. Aby temu zapobiec należy przy kompilacji wpisać:
     "tsc --noOmitOnError-- <file-name>"
-2) Konfigurację można przeprowadzić w pliku tscconfig.json umieszczonym w głównym katalogu projektu
+3) Konfigurację można przeprowadzić w pliku tsconfig.json umieszczonym w głównym katalogu projektu.
+    tsconfig.json można wygenerować poprzez "tsc --init"
